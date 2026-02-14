@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Benjamin Kelemen | Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="experience.html">Work Experience</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!--Projects Section-->
+        <section>
+            <h2>Projects</h2>
+            <!--Omni Drive Systems-->
+            <article>
+                <div class="row">
+                    <div class="projectsColumnP">
+                        <h3>Development of Omnidirection Drive Systems</h3>
+                        <p>
+                            This project was a continuation and advancement of the Software and Electrical Development
+                            for Manual and Autonomous Systems project. This project focused on the development of
+                            multiple omnidirectional drivetrains. The first drive developed was using mecanum wheels, a
+                            type of wheel that provides digonal forces and allows movement in any direction using angled
+                            rollers. This drivetrain had a similar design to traditional drive, 1 wheel in each corner
+                            powered by individual motors, but the diagonal forces provided by the mecanum wheels allowed
+                            for movement in any direction. The second drivetrain developed was a swerve drive, which
+                            uses traditional wheels that can be rotated to any angle, allowing for movement in any
+                            direction. Swerve drive is significantly more complex than mecanum drive, as it requires two
+                            motors per wheel, one for steering and one for driving, as well as a encoder for precise
+                            control of the steering. Both the electrical and software systems were extremely complex as
+                            every wheel needs to move in unison to achieve omnidirecitonal movement. ADD MORE
+                        </p>
+                        <p><strong>Tech:</strong> Java, Visual Studio Code, Motors, Motor Controllers, Drivetrains,
+                            Gearboxes, Multimeters, Wiring Tools, CNCs, 3D Printers, Grinders, Drill Presses, Saws</p>
+                        <p>Project from 2023-2024</p>
+                    </div>
+                    <div class="slideshow" data-index="0">
+                        <div class="slide active">
+                            <img src="Media/ODrive2.jpg" alt="Screenshot 1">
+                        </div>
+
+                        <div class="slide">
+                            <img src="Media/ODrive1.jpg" alt="Screenshot 2">
+                        </div>
+
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+                </div>
+            </article>
+
+            <!--SD for Manual and Auto-->
+            <article>
+                <div class="row">
+                    <div class="projectsColumnP">
+                        <h3>Software and Electrical Development for Manual and Autonomous Systems</h3>
+                        <p>
+                            Developed, built, implemented, and maintained software and electrical systems for large
+                            mobile robots, including drive systems, arm control, power distribution, sensor reading
+                            and processing, and spacial awareness. These systems were used in a competitive robotics
+                            program where high velocity impacts and damage was common, so fail-safes and quick repairs
+                            were necessary. This environment encouraged modularity and adaptability, providing
+                            opportunity for unique system development. The software was developed in Visual Studio Code
+                            using Java and uploaded to a main cpu on the robot. This cpu wirelessly connected during
+                            competitions, allowing for manual control. The software provided multiple control
+                            configurations, tailored to the needs of each robot and driver. Real time sensors were used
+                            as autonomous operation was often required for certain tasks. The electrical systems were
+                            powered by an onboard battery and distributed through a power distribution board, which also
+                            provided protection against power sugers and shorts. The drivetrains and software were
+                            designed so even if motors were lost, the robot would still be functional. Multiple robots
+                            were developed and competed over the course of 4 years, each with a unique design and goals,
+                            but always with a focus on durability, adaptability, and performance.
+                        </p>
+                        <p><strong>Tech:</strong> Java, Visual Studio Code, Motors, Motor Controllers, Drivetrains,
+                            Gearboxes, Linear Actuators, Multimeters, Wiring Tools, 3D Printers</p>
+                        <p>Project from 2020-2024</p>
+                    </div>
+                    <div class="slideshow" data-index="0">
+                        <div class="slide active">
+                            <img src="Media/Robot3.jpg"
+                                alt="Metal arm attached to robot, designed for picking up and shooting foam rings and climbing on a chain">
+                        </div>
+
+                        <div class="slide">
+                            <img src="Media/Robot4.jpg" alt="Robot climbing on chain using arm">
+                        </div>
+                        <div class="slide">
+                            <img src="Media/Robot5.jpg"
+                                alt="Front view of robot with arm lowered, positioned for picking up a foam ring">
+                        </div>
+                        <div class="slide">
+                            <img src="Media/Robot1.jpg"
+                                alt="Front view of static container designed for top loading and shooting foam rings">
+                        </div>
+                        <div class="slide">
+                            <img src="Media/Robot2.jpg"
+                                alt="Back view of static container designed for top loading and shooting foam rings">
+                        </div>
+
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+                </div>
+            </article>
+
+            <!--Address Verification-->
+            <article id="AddressVerification">
+                <div class="row">
+                    <div class="projectsColumnNP">
+                        <h3>SQL Address Verification System</h3>
+                        <p>
+                            Automated address verification and update system using a 3rd party geocoding API, python
+                            scripts, and SQL Server Management Studio. First, a SQL job dumps the new
+                            address data into a staging csv file. Next, a python script processes the csv file into the
+                            3rd party API, which returns the verified address data to another csv file. If the address
+                            is not verified, a new one is suggested and returned for manual review. The verified data is
+                            reprocessed into the SQL database automatically, updating any misspellings and formatting
+                            the address. Once the new address suggestions have been approved, they are also processed
+                            into the SQL database, replacing any bad addresses. This system has been implemented at New
+                            Braunfels Utilities and has significantly improved the accuracy of address data in the
+                            database, reducing errors and improving efficiency in operations.
+                        </p>
+                        <p><strong>Tech:</strong> SQL Server Management Studio, Python, SQL, 3rd Party APIs</p>
+                        <p>Created in 2024 at New Braunfels Utilities</p>
+                    </div>
+                </div>
+            </article>
+
+            <!--RT Tickets-->
+            <article id="TicketAutomation">
+                <div class="row">
+                    <div class="projectsColumnNP">
+                        <h3>Ticket Automation System</h3>
+                        <p>
+                            UPDATE!! Automated ticket creation in Request Tracker using SQL Server Database Mail and
+                            email
+                            processing based on creation, modification, or completion of Cityworks Work Orders. This
+                            system has been implemented at New Braunfels Utilities and has significantly reduced the
+                            time spent on manual ticket creation and management.
+                        </p>
+                        <p><strong>Tech:</strong> SQL Server Management Studio, Python, SQL, RT, Cityworks</p>
+                        <p>Created in 2023 at New Braunfels Utilities</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
