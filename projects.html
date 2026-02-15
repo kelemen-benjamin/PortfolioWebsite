@@ -24,24 +24,64 @@
         <!--Projects Section-->
         <section>
             <h2>Projects</h2>
+
+            <!--IEEE RAS Project-->
+            <article>
+                <div class="row">
+                    <div class="projectsColumnNP">
+                        <h3>Upcoming IEEE RAS Project</h3>
+                        <p>
+                            This project will consist of the development of a robotic system for a currently
+                            undetermined application. A team of 4-5 students will work together to design, build, and
+                            program the robot. The goal of the project will be announced soon.
+                        </p>
+                        <p><strong>Tech:</strong> TBD</p>
+                        <p>Scheduled for 2026 with IEEE RAS</p>
+                    </div>
+                </div>
+            </article>
+
+            <!--Color Sorter-->
+            <article>
+                <div class="row">
+                    <div class="projectsColumnNP">
+                        <h3>Automated Color Sorter</h3>
+                        <p>
+                            This project focused on identifying and sorting objects based on color using an arduino,
+                            color sensor, a motor, and multiple servos. Ping pong balls of different colors were lifted
+                            with the motor, identified by the color sensor, and sorted into bins by the servos. The
+                            software was developed to allow the color sensor to adapt to any lighting conditions,
+                            allowing for accurate color detection in a variety of environments. This project provided an
+                            opportunity to integrate software and hardware systems to accomplish a specific task that
+                            can be applied to more complex systems in the future.
+                        </p>
+                        <p><strong>Tech:</strong> C++, Sensors, Motors, Servos, Motor Controllers</p>
+                        <p>Created in 2025 with IEEE RAS</p>
+                    </div>
+                </div>
+            </article>
+
             <!--Omni Drive Systems-->
             <article>
                 <div class="row">
                     <div class="projectsColumnP">
                         <h3>Development of Omnidirection Drive Systems</h3>
                         <p>
-                            This project was a continuation and advancement of the Software and Electrical Development
-                            for Manual and Autonomous Systems project. This project focused on the development of
-                            multiple omnidirectional drivetrains. The first drive developed was using mecanum wheels, a
-                            type of wheel that provides digonal forces and allows movement in any direction using angled
-                            rollers. This drivetrain had a similar design to traditional drive, 1 wheel in each corner
-                            powered by individual motors, but the diagonal forces provided by the mecanum wheels allowed
-                            for movement in any direction. The second drivetrain developed was a swerve drive, which
-                            uses traditional wheels that can be rotated to any angle, allowing for movement in any
-                            direction. Swerve drive is significantly more complex than mecanum drive, as it requires two
-                            motors per wheel, one for steering and one for driving, as well as a encoder for precise
-                            control of the steering. Both the electrical and software systems were extremely complex as
-                            every wheel needs to move in unison to achieve omnidirecitonal movement. ADD MORE
+                            This project was a continuation and advancement of the
+                            <a href="projects.html#SDManualandAuto">Software and Electrical Development for Manual
+                                and Autonomous Systems</a> project.
+                            This project focused on the development of multiple omnidirectional drivetrains. The first
+                            drive developed was using mecanum wheels, a type of wheel that provides digonal forces and
+                            allows movement in any direction using angled rollers. This drivetrain had a similar design
+                            to traditional drive, 1 wheel in each corner powered by individual motors, but the diagonal
+                            forces provided by the mecanum wheels allowed for movement in any direction. The second
+                            drivetrain developed was a swerve drive, which uses traditional wheels that can be rotated
+                            to any angle, allowing for movement in any direction. Swerve drive is significantly more
+                            complex than mecanum drive, as it requires two motors per wheel, one for steering and one
+                            for driving, as well as a encoder for precise control of the steering. Both the electrical
+                            and software systems were extremely complex as every wheel needs to move in unison to
+                            achieve omnidirecitonal movement. This project provided an opporunity to integrate complex
+                            hardware and software systems in a high performance environment.
                         </p>
                         <p><strong>Tech:</strong> Java, Visual Studio Code, Motors, Motor Controllers, Drivetrains,
                             Gearboxes, Multimeters, Wiring Tools, CNCs, 3D Printers, Grinders, Drill Presses, Saws</p>
@@ -63,7 +103,7 @@
             </article>
 
             <!--SD for Manual and Auto-->
-            <article>
+            <article id="SDManualandAuto">
                 <div class="row">
                     <div class="projectsColumnP">
                         <h3>Software and Electrical Development for Manual and Autonomous Systems</h3>
@@ -139,7 +179,7 @@
                 </div>
             </article>
 
-            <!--RT Tickets-->
+            <!--Tickets-->
             <article id="TicketAutomation">
                 <div class="row">
                     <div class="projectsColumnNP">
@@ -148,7 +188,11 @@
                             Recieved new data scraped from ArcGIS and automatically updated Cityworks Work Orders. Based
                             on Work Order updates, an email is sent to RT though SQL Server Database Mail, updating
                             relevent information in RT. This system has been implemented at New Braunfels Utilities and
-                            has significantly reduced the time spent on manual ticket creation and management.
+                            has significantly reduced the time spent on manual ticket creation and management. This
+                            project was later reworked to accomodate an upcoming change to the RT system and API, which
+                            required a the development of a python script to process data into the RT Cloud API. While
+                            implementing this change, the data flow was optimized to ensure processing of other SQL jobs
+                            was not interrupted when large amounts of data were being processed.
                         </p>
                         <p><strong>Tech:</strong> SQL Server Management Studio, Python, SQL, RT, Cityworks</p>
                         <p>Created in 2023 at New Braunfels Utilities</p>
@@ -160,6 +204,5 @@
 
     <script src="script.js"></script>
 </body>
-
 
 </html>
