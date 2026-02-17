@@ -51,6 +51,11 @@ h3 {
   margin-top: 0.5rem;
 }
 
+p {
+  font-family: "Verdana", sans-serif;
+  font-size: 15px;
+}
+
 article {
   margin-top: 1rem;
   padding: 1rem;
@@ -68,6 +73,12 @@ summary {
   width: 70%;
   font-family: "Verdana", sans-serif;
   font-size: 15px;
+}
+
+.aboutP {
+  float: left;
+  width: 30%;
+  text-align: center;
 }
 
 .column {
