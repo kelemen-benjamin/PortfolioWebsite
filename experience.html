@@ -2,76 +2,145 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Benjamin Kelemen | Projects</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Benjamin Kelemen | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <!--Navigation Bar-->
-    <nav>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="experience.html">Work Experience</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
-        </ul>
-    </nav>
+  <!--Navigation Bar-->
+  <nav>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="experience.html">Work Experience</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-    <main>
-        <!--Work Experience Section-->
-        <section>
-            <h2>Work Experience</h2>
+  <!--Header Section-->
+  <header>
+    <h1>Benjamin Kelemen</h1>
+    <p>Student at Texas State University</p>
+  </header>
 
-            <!--Linear Algebra Paper Grader-->
-            <article>
-                <h3>Linear Algebra Paper Grader</h3>
-                <p>August 2025 - December 2025<br>Texas State University</p>
-                <p>
-                    Graded weekly linear algebra homework assignments for a class of around 75 students. Grading
-                    involved checking 4-8 problems per assignment, which required a strong understanding of linear
-                    algebra concepts and the ability to provide constructive feedback to students. Feedback was given in
-                    a clear and concise manner to help students understand their mistakes and improve their
-                    understanding of the material.
-                </p>
-            </article>
+  <main>
+    <!--About Me Section-->
+    <section>
+      <h2>About Me</h2>
+      <div class="row">
+        <div class="aboutColumn">
+          <p>
+            I'm a second-year student at Texas State University, triple majoring in Computer Science, Electrical
+            Engineering: Computer Engineering, and Applied Mathematics. I have experience in robotics, electronics,
+            software development, database management, and automation. I'm passionate about designing, creating, and
+            integrating unique software and hardware systems to solve real problems. In the past, I've worked on a
+            variety of projects, including designing and building a omnidirectional drivetrains for large mobile robots,
+            developing software to automate database cleanup and verification, and creating custom electrical and
+            software systems for robotics applications.
+          </p>
+          <p>
+            In my free time, I enjoy designing electrical systems, developing software, baking, and playing board and
+            video games. I'm always looking for new opportunities to grow my skills while making an impact on
+            the world around me.
+        </div>
+        <div class="aboutP">
+          <img src="Assets/Profile Photo.jpg" alt="Profile Picture" width="300px">
+        </div>
+      </div>
+    </section>
 
-            <!--Applications Support Intern-->
-            <article>
-                <h3>Applications Support Intern</h3>
-                <p>June 2025 - August 2025<br>New Braunfels Utilities</p>
-                <p>
-                    Worked with the Applications Support team to solve user issues and develop new systems to improve
-                    efficiency. Personally researched, developed, and implemented a
-                    <a href="projects.html#AddressVerification"> SQL Address Verification System</a>
-                    for the utility company. Reworked the existing
-                    <a href="projects.html#TicketAutomation">Ticket Automation System</a>
-                    due to an upcoming change to the RT system and API. This update required a python script to receive
-                    data from the SQL database, process it, and upload it to the RT Cloud API. This position allowed me
-                    to work directly with users and coleagues to solve real world problems and develop software
-                    solutions that had an impact on the company.
-                </p>
-            </article>
+    <!--Skills Section-->
+    <section>
+      <h2>Skills</h2>
 
-            <!--Data Strategy Intern-->
-            <article>
-                <h3>Data Strategy Intern</h3>
-                <p>Jun 2024 - Aug 2024<br>New Braunfels Utilities</p>
-                <p>
-                    Worked between the Applications Support and GIS teams within the Data Strategy department to
-                    optimize data management processes. Lead the development of a
-                    <a href="projects.html#TicketAutomation">Ticket Automation System</a>
-                    to reduce the time spend on manual data entry and processing. Developed customized reports in
-                    Crystal Reports to provide insights into operations and performance. Assisted in the onboarding and
-                    environment setup for new interns and employees. This position provided an opportunity to work on a
-                    variety of front end and back end projects and gain experience in data mangenent and software
-                    development in a professional environment.
-                </p>
-            </article>
-        </section>
-    </main>
+      <article>
+        <div class="row">
+          <div class="column">
+            <summary><strong>Software</strong></summary>
+            <ul>
+              <li>SQL Server Management Studio</li>
+              <li>Visual Studio Code</li>
+              <li>Micrsoft Products (Excel, Word, etc.)</li>
+              <li>Crystal Reports</li>
+              <li>ArcGIS</li>
+              <li>Cityworks</li>
+              <li>3rd Party APIs</li>
+              <li>RT</li>
+            </ul>
+            <summary><strong>Relevant Coursework</strong></summary>
+            <ul>
+              <li>Data Structures and Algorithms</li>
+              <li>Circuits</li>
+              <li>Microprocessors</li>
+              <li>Linear Algebra</li>
+              <li>Differential Equations</li>
+            </ul>
+          </div>
+
+          <div class="column">
+            <summary><strong>Programming Languages: Proficient</strong></summary>
+            <ul>
+              <li>C++</li>
+              <li>C</li>
+              <li>Python</li>
+              <li>SQL</li>
+              <li>Java</li>
+            </ul>
+
+            <summary><strong>Programming Languages: Familiar</strong></summary>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>C#</li>
+              <li>Lua</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+
+          <div class="column">
+            <summary><strong>Mechanical Systems</strong></summary>
+            <ul>
+              <li>Sensors</li>
+              <li>Omnidirectional Wheels</li>
+              <li>Drivetrains</li>
+              <li>Motors</li>
+              <li>Motor Controllers</li>
+              <li>Gearboxes</li>
+              <li>Linear Actuators</li>
+            </ul>
+            <summary><strong>Tools and Instruments</strong></summary>
+            <ul>
+              <li>Multimeters</li>
+              <li>Wiring Tools</li>
+              <li>CNCs</li>
+              <li>3D Printers</li>
+              <li>Grinders</li>
+              <li>Drill Presses</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+    <!--Contact Section-->
+    <section id="contact">
+      <h2>Contact</h2>
+      <h3>Feel free to reach out with any questions!</h3>
+      <p>Personal Email: kelemen.benjamin@outlook.com</p>
+      <p>University Email: src261@txstate.edu</p>
+      <p>LinkedIn:
+        <a href="https://www.linkedin.com/in/benjamin-kelemen-785280337" target="_blank" rel="noopener noreferrer">
+          linkedin.com/in/benjamin-kelemen-785280337
+        </a>
+      </p>
+      <p><a href="Assets/Kelemen Resume.pdf" download="Kelemen Resume.pdf">Download Resume (PDF)</a></p>
+      <p><a href="Assets/Kelemen Academic CV.pdf" download="Kelemen Academic CV.pdf">Download Academic CV (PDF)</a></p>
+    </section>
+  </main>
 
 </body>
 
